@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "myFirstFont1";
+  src: url(./assets/fonts/Montserrat-Regular.ttf);
+}
+body {
+  font-family: "myFirstFont1";
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
+.navbar-nav {
+  position: absolute;
+  right: 30px;
+}
+.text-box {
+  width: 800px;
+  height: auto;
+  margin-top: 50px;
+}
+.card {
+  width: 300px;
+  margin: 0 auto;
+  margin-left: 20px;
+}
+.card-price {
+  font-weight: bold;
+  font-size: 35px;
+}
+.card-month {
+  font-size: 25px;
+  font-weight: bolder;
+}
+.card-btn {
+  width: 90%;
+  margin-left: 5%;
+}
+.cards {
+  margin: 15px auto !important;
+}
+.footer-1 li {
+  color: gray;
+}
+.footer-1 h5 {
+  font-weight: bolder;
+}
